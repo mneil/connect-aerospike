@@ -4,7 +4,11 @@ connect-aerospike is an Aerospike session store backed by [aerospike-client-node
 
 ## Installation
 
-    $ npm install connect-aerospike
+    $ npm install connect-aerospike2
+
+connect-aerospike was already taken. I didn't check before writing this one. They're pretty much the same except the
+current connect-aerospike (as of this commit) has some console.log statements in it and no docs on namespace and set
+settings (although it supports it)
 
 ### A note for Express 3.x users
 
