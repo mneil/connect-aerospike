@@ -1,0 +1,36 @@
+{
+  "name": "connect-aerospike",
+  "description": "Aerospike session store for Connect",
+  "version": "0.0.2",
+  "author": {
+    "name": "Michael Neil",
+    "email": "mneil@mneilsworld.com"
+  },
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mneil/connect-aerospike"
+  },
+  "dependencies": {
+    "aerospike": "^1.0.37"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/mneil/connect-aerospike/issues"
+  },
+  "homepage": "https://github.com/mneil/connect-aerospike",
+  "maintainers": [
+    {
+      "name": "mneil",
+      "email": "mneil@mneilsworld.com"
+    }
+  ]
+}
+
+
+
