@@ -36,7 +36,7 @@ The following additional params may be included:
 Pass the `express-session` store into `connect-aerospike` to create a `AerospikeStore` constructor.
 
     var session = require('express-session');
-    var RedisStore = require('connect-aerospike')(session);
+    var RedisStore = require('connect-aerospike2')(session);
 
     app.use(session({
         store: new AerospikeStore(options),
